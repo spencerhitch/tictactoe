@@ -61,7 +61,7 @@ class Game:
                     coord0 < 3 and 
                     coord1 < 3 and
                     self.boards[coord0][coord1].winner == candidate and 
-                    self.board[coord0_next][coord1_next].winner == candidate):
+                    self.boards[coord0_next][coord1_next].winner == candidate):
                     print("Player " + candidate + " has won the game!")
                     exit()
 
